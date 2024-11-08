@@ -47,8 +47,10 @@ body {
 
 .filter-bar {
   display: flex;
-  justify-content: right;
+  margin-left: auto; /* Pushes the filter bar to the right */
+  padding-left: 69%;
 }
+
 
 .filter-slot {
   font-weight: bold;

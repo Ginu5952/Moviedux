@@ -61,8 +61,8 @@ body {
   padding: 8px;
   margin: 10px;
   border-radius: 5px;
-  background-color: white;
-  color: #333;
+  background-color: transparent;
+  color: #3ab2c7;
 }
 
 /* Movie Grid Styling */
@@ -96,6 +96,8 @@ body {
   transition: transform 0.2s ease-in-out;
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, .5);
 }
+
+
 
 .movie-card:hover {
   transform: scale(1.03);
@@ -204,19 +206,21 @@ ul {
   margin: 0;  
   display: flex;
   justify-content: center;
+  
 }
 
 ul li {
   padding: 10px;
+ 
 }
 
 nav a {
-  color: black;
+  color: white;
   text-decoration: none;
   padding: 10px 20px;
   border-radius: 50px;
-  background-color: #ffffff;
-  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, .5);
+  background-color: transparent;
+  border: 2px solid white; 
 }
 
 nav a:hover {
@@ -268,6 +272,7 @@ nav a:hover {
   width: 100%; 
   line-height: 24px; 
   transition: opacity 0.4s ease; 
+  font-weight: bold;
 }
 
 input:checked + .slider:before {

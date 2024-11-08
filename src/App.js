@@ -40,7 +40,6 @@ function App() {
     <div className="App">
       <div id="bubble-container"></div>
       <header className="header">
-        <h1>Welcome to</h1>
         <Header></Header>
         <MoviesGrid></MoviesGrid>
         <Footer></Footer>
